@@ -6,40 +6,43 @@
 //
 
 import SwiftUI
-import CoreLocation // remove after updating MapView
 
 struct PlacemarkDetail: View {
+    
+    var placemark: Placemark
+    
     var body: some View {
-        VStack {
-            MapView(coordinate: CLLocationCoordinate2D(latitude: 34.011_286, longitude: -116.166_868))
+        ScrollView {
+            MapView(coordinate: placemark.locationCoordinate)
                 .ignoresSafeArea(edges: .top)
                 .frame(height: 300)
             
-            CircleImage(image: Image("turtlerock")).offset(y: -130).padding(.bottom, -130)
+            CircleImage(image: placemark.image).offset(y: -130).padding(.bottom, -130)
             
             VStack(alignment: .leading) {
-                Text("Turtle Rock")
+                Text(placemark.name)
                     .font(.title)
                 HStack {
-                    Text("Joshua Tree National Park")
+                    Text(placemark.park)
                     Spacer()
-                    Text("California")
+                    Text(placemark.state)
                 }                        .font(.subheadline)
                     .foregroundColor(.secondary)
 
                 Divider()
                 
-                Text("About Turtle Rock").font(.title2)
-                Text("Descriptive text goes here")
+                Text("About \(placemark.name)").font(.title2)
+                Text("\(placemark.description)")
             }
             .padding()
-            Spacer()
         }
+        .navigationTitle(placemark.name)
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 struct PlacemarkDetail_Previews: PreviewProvider {
     static var previews: some View {
-        PlacemarkDetail()
+        PlacemarkDetail(placemark: placemarks[0])
     }
 }

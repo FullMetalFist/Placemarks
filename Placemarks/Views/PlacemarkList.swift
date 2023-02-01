@@ -12,7 +12,7 @@ struct PlacemarkList: View {
         NavigationView {
             List(placemarks) { placemark in
                 NavigationLink {
-                    PlacemarkDetail()
+                    PlacemarkDetail(placemark: placemark)
                 } label: {
                     PlacemarksRow(placemark: placemark)
                 }
@@ -24,6 +24,10 @@ struct PlacemarkList: View {
 
 struct PlacemarkList_Previews: PreviewProvider {
     static var previews: some View {
-        PlacemarkList()
+        ForEach(["iPhone SE (2nd generation)", "iPhone XS Max"], id: \.self) {
+            deviceName in
+            PlacemarkList().previewDevice(PreviewDevice(rawValue: deviceName)).previewDisplayName(deviceName)
+        }
+        
     }
 }
