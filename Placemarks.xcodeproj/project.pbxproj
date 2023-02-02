@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		992423B5298C418300B9C8A6 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992423B4298C418300B9C8A6 /* FavoriteButton.swift */; };
 		994F6EC8298819BB00410351 /* PlacemarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F6EC7298819BB00410351 /* PlacemarksApp.swift */; };
 		994F6ECA298819BB00410351 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F6EC9298819BB00410351 /* ContentView.swift */; };
 		994F6ECC298819BC00410351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 994F6ECB298819BC00410351 /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		992423B4298C418300B9C8A6 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		994F6EC4298819BB00410351 /* Placemarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Placemarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		994F6EC7298819BB00410351 /* PlacemarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacemarksApp.swift; sourceTree = "<group>"; };
 		994F6EC9298819BB00410351 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,6 +89,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		992423B6298C428400B9C8A6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				992423B4298C418300B9C8A6 /* FavoriteButton.swift */,
+				994F6EF12988201B00410351 /* CircleImage.swift */,
+				994F6EF3298820F700410351 /* MapView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		992423B7298C429400B9C8A6 /* Placemarks */ = {
+			isa = PBXGroup;
+			children = (
+				994F6F0029895AC100410351 /* PlacemarkList.swift */,
+				994F6F0229895DBD00410351 /* PlacemarkDetail.swift */,
+				994F6EFE29884E1E00410351 /* PlacemarksRow.swift */,
+			);
+			path = Placemarks;
+			sourceTree = "<group>";
+		};
 		994F6EBB298819BB00410351 = {
 			isa = PBXGroup;
 			children = (
@@ -166,11 +188,8 @@
 			isa = PBXGroup;
 			children = (
 				994F6EC9298819BB00410351 /* ContentView.swift */,
-				994F6EF12988201B00410351 /* CircleImage.swift */,
-				994F6EF3298820F700410351 /* MapView.swift */,
-				994F6F0029895AC100410351 /* PlacemarkList.swift */,
-				994F6F0229895DBD00410351 /* PlacemarkDetail.swift */,
-				994F6EFE29884E1E00410351 /* PlacemarksRow.swift */,
+				992423B6298C428400B9C8A6 /* Helpers */,
+				992423B7298C429400B9C8A6 /* Placemarks */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -309,6 +328,7 @@
 				994F6ECA298819BB00410351 /* ContentView.swift in Sources */,
 				994F6EF4298820F700410351 /* MapView.swift in Sources */,
 				994F6F0129895AC100410351 /* PlacemarkList.swift in Sources */,
+				992423B5298C418300B9C8A6 /* FavoriteButton.swift in Sources */,
 				994F6EC8298819BB00410351 /* PlacemarksApp.swift in Sources */,
 				994F6EFF29884E1E00410351 /* PlacemarksRow.swift in Sources */,
 				994F6EF22988201B00410351 /* CircleImage.swift in Sources */,

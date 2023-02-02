@@ -8,8 +8,12 @@
 import SwiftUI
 
 struct PlacemarkDetail: View {
-    
+    @EnvironmentObject var modelData: ModelData
     var placemark: Placemark
+    
+    var placemarkIndex: Int {
+        modelData.placemarks.firstIndex(where: {$0.id == placemark.id })!
+    }
     
     var body: some View {
         ScrollView {
@@ -20,8 +24,10 @@ struct PlacemarkDetail: View {
             CircleImage(image: placemark.image).offset(y: -130).padding(.bottom, -130)
             
             VStack(alignment: .leading) {
-                Text(placemark.name)
-                    .font(.title)
+                HStack {
+                    Text(placemark.name).font(.title)
+                    FavoriteButton(isSet: $modelData.placemarks[placemarkIndex].isFavorite)
+                }
                 HStack {
                     Text(placemark.park)
                     Spacer()
