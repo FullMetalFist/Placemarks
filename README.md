@@ -2,16 +2,16 @@
 Clone of Apple Tutorial 'Landmarks'
 
 ## SwiftUI Essentials
-- [x] https://developer.apple.com/tutorials/swiftui/creating-and-combining-views
+- [x] [Creating and combining views](https://developer.apple.com/tutorials/swiftui/creating-and-combining-views)
 
-- [x] https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation
+- [x] [Building lists and navigation](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation)
 
-- [x] https://developer.apple.com/tutorials/swiftui/handling-user-input
+- [x] [Handling user input](https://developer.apple.com/tutorials/swiftui/handling-user-input)
 
 ## Drawing and Animation
-- [ ] https://developer.apple.com/tutorials/swiftui/drawing-paths-and-shapes
+- [ ] [Drawing paths and shapes](https://developer.apple.com/tutorials/swiftui/drawing-paths-and-shapes)
 
-- [ ] https://developer.apple.com/tutorials/swiftui/animating-views-and-transitions
+- [ ] [Animating views and transitions](https://developer.apple.com/tutorials/swiftui/animating-views-and-transitions)
 
 ## App Design Layout
 - [ ] https://developer.apple.com/tutorials/swiftui/composing-complex-interfaces
