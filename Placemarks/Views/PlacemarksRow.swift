@@ -27,6 +27,8 @@ struct PlacemarksRow: View {
 }
 
 struct PlacemarksRow_Previews: PreviewProvider {
+    
+    static var placemarks = ModelData().placemarks
     static var previews: some View {
         Group {
             PlacemarksRow(placemark: placemarks[0])

@@ -6,6 +6,12 @@
 //
 
 import Foundation
+import Combine
+
+
+final class ModelData: ObservableObject {
+    @Published var placemarks: [Placemark] = load("landmarkData.json")
+}
 
 var placemarks: [Placemark] = load("landmarkData.json")
 

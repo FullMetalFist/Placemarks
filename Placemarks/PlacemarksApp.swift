@@ -9,9 +9,12 @@ import SwiftUI
 
 @main       // main app entry point
 struct PlacemarksApp: App {
+    
+    @StateObject private var modelData = ModelData()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(modelData)
         }
     }
 }

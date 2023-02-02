@@ -8,10 +8,11 @@
 import SwiftUI
 
 struct PlacemarkList: View {
+    @EnvironmentObject var modelData: ModelData
     @State private var showFavoritesOnly = false
     
     var filteredPlacemarks: [Placemark] {
-        placemarks.filter { placemark in
+        modelData.placemarks.filter { placemark in
             (!showFavoritesOnly || placemark.isFavorite)
         }
     }
@@ -41,7 +42,7 @@ struct PlacemarkList_Previews: PreviewProvider {
     static var previews: some View {
         ForEach(["iPhone SE (2nd generation)", "iPhone XS Max"], id: \.self) {
             deviceName in
-            PlacemarkList().previewDevice(PreviewDevice(rawValue: deviceName)).previewDisplayName(deviceName)
+            PlacemarkList().environmentObject(ModelData()).previewDevice(PreviewDevice(rawValue: deviceName)).previewDisplayName(deviceName)
         }
         
     }

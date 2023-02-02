@@ -43,6 +43,6 @@ struct PlacemarkDetail: View {
 
 struct PlacemarkDetail_Previews: PreviewProvider {
     static var previews: some View {
-        PlacemarkDetail(placemark: placemarks[0])
+        PlacemarkDetail(placemark: ModelData().placemarks[0])
     }
 }
