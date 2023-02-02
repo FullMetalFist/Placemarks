@@ -8,13 +8,28 @@
 import SwiftUI
 
 struct PlacemarkList: View {
+    @State private var showFavoritesOnly = false
+    
+    var filteredPlacemarks: [Placemark] {
+        placemarks.filter { placemark in
+            (!showFavoritesOnly || placemark.isFavorite)
+        }
+    }
+    
     var body: some View {
         NavigationView {
-            List(placemarks) { placemark in
-                NavigationLink {
-                    PlacemarkDetail(placemark: placemark)
-                } label: {
-                    PlacemarksRow(placemark: placemark)
+            List {
+                
+                Toggle(isOn: $showFavoritesOnly) {
+                    Text("Favorites only")
+                }
+                
+                ForEach(filteredPlacemarks) { placemark in
+                    NavigationLink {
+                        PlacemarkDetail(placemark: placemark)
+                    } label: {
+                        PlacemarksRow(placemark: placemark)
+                    }
                 }
             }
             .navigationTitle("Placemarks")

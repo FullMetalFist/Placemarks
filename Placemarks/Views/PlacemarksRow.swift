@@ -18,6 +18,10 @@ struct PlacemarksRow: View {
                 .frame(width: 50, height: 50)
             Text(placemark.name)
             Spacer()
+            
+            if placemark.isFavorite {
+                Image(systemName: "star.fill").foregroundColor(.yellow)
+            }
         }
     }
 }
