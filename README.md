@@ -2,11 +2,11 @@
 Clone of Apple Tutorial 'Landmarks'
 
 ## SwiftUI Essentials
-- [x] ~~[Creating and combining views]~~(https://developer.apple.com/tutorials/swiftui/creating-and-combining-views)
+- [x] [Creating and combining views](https://developer.apple.com/tutorials/swiftui/creating-and-combining-views)
 
-- [x] ~~[Building lists and navigation]~~(https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation)
+- [x] [Building lists and navigation](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation)
 
-- [x] ~~[Handling user input]~~(https://developer.apple.com/tutorials/swiftui/handling-user-input)
+- [x] [Handling user input](https://developer.apple.com/tutorials/swiftui/handling-user-input)
 
 ## Drawing and Animation
 - [ ] [Drawing paths and shapes](https://developer.apple.com/tutorials/swiftui/drawing-paths-and-shapes)
@@ -24,7 +24,3 @@ Clone of Apple Tutorial 'Landmarks'
 - [ ] [Creating a WatchOS app](https://developer.apple.com/tutorials/swiftui/creating-a-watchos-app)
 
 - [ ] [Creating a macOS app](https://developer.apple.com/tutorials/swiftui/creating-a-macos-app)
-
-
-## Part II
-- [ ] https://developer.apple.com/tutorials/sample-apps
