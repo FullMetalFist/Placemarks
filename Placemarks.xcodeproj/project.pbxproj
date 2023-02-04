@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		992423B5298C418300B9C8A6 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992423B4298C418300B9C8A6 /* FavoriteButton.swift */; };
+		992423B9298DE6F900B9C8A6 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992423B8298DE6F900B9C8A6 /* HexagonParameters.swift */; };
+		992423BB298DE8CA00B9C8A6 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992423BA298DE8CA00B9C8A6 /* BadgeBackground.swift */; };
 		994F6EC8298819BB00410351 /* PlacemarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F6EC7298819BB00410351 /* PlacemarksApp.swift */; };
 		994F6ECA298819BB00410351 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F6EC9298819BB00410351 /* ContentView.swift */; };
 		994F6ECC298819BC00410351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 994F6ECB298819BC00410351 /* Assets.xcassets */; };
@@ -44,6 +46,8 @@
 
 /* Begin PBXFileReference section */
 		992423B4298C418300B9C8A6 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		992423B8298DE6F900B9C8A6 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		992423BA298DE8CA00B9C8A6 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		994F6EC4298819BB00410351 /* Placemarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Placemarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		994F6EC7298819BB00410351 /* PlacemarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacemarksApp.swift; sourceTree = "<group>"; };
 		994F6EC9298819BB00410351 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -188,6 +192,8 @@
 			isa = PBXGroup;
 			children = (
 				994F6EC9298819BB00410351 /* ContentView.swift */,
+				992423B8298DE6F900B9C8A6 /* HexagonParameters.swift */,
+				992423BA298DE8CA00B9C8A6 /* BadgeBackground.swift */,
 				992423B6298C428400B9C8A6 /* Helpers */,
 				992423B7298C429400B9C8A6 /* Placemarks */,
 			);
@@ -329,8 +335,10 @@
 				994F6EF4298820F700410351 /* MapView.swift in Sources */,
 				994F6F0129895AC100410351 /* PlacemarkList.swift in Sources */,
 				992423B5298C418300B9C8A6 /* FavoriteButton.swift in Sources */,
+				992423B9298DE6F900B9C8A6 /* HexagonParameters.swift in Sources */,
 				994F6EC8298819BB00410351 /* PlacemarksApp.swift in Sources */,
 				994F6EFF29884E1E00410351 /* PlacemarksRow.swift in Sources */,
+				992423BB298DE8CA00B9C8A6 /* BadgeBackground.swift in Sources */,
 				994F6EF22988201B00410351 /* CircleImage.swift in Sources */,
 				994F6EF8298825BB00410351 /* Placemark.swift in Sources */,
 				994F6F0329895DBD00410351 /* PlacemarkDetail.swift in Sources */,
