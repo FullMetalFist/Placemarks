@@ -25,6 +25,8 @@
 		994F6EFF29884E1E00410351 /* PlacemarksRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F6EFE29884E1E00410351 /* PlacemarksRow.swift */; };
 		994F6F0129895AC100410351 /* PlacemarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F6F0029895AC100410351 /* PlacemarkList.swift */; };
 		994F6F0329895DBD00410351 /* PlacemarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F6F0229895DBD00410351 /* PlacemarkDetail.swift */; };
+		99C254BA298EB8E0004313C1 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C254B9298EB8E0004313C1 /* BadgeSymbol.swift */; };
+		99C254BC298EBACA004313C1 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C254BB298EBACA004313C1 /* RotatedBadgeSymbol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,8 @@
 		994F6EFE29884E1E00410351 /* PlacemarksRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacemarksRow.swift; sourceTree = "<group>"; };
 		994F6F0029895AC100410351 /* PlacemarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacemarkList.swift; sourceTree = "<group>"; };
 		994F6F0229895DBD00410351 /* PlacemarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacemarkDetail.swift; sourceTree = "<group>"; };
+		99C254B9298EB8E0004313C1 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		99C254BB298EBACA004313C1 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +198,8 @@
 				994F6EC9298819BB00410351 /* ContentView.swift */,
 				992423B8298DE6F900B9C8A6 /* HexagonParameters.swift */,
 				992423BA298DE8CA00B9C8A6 /* BadgeBackground.swift */,
+				99C254B9298EB8E0004313C1 /* BadgeSymbol.swift */,
+				99C254BB298EBACA004313C1 /* RotatedBadgeSymbol.swift */,
 				992423B6298C428400B9C8A6 /* Helpers */,
 				992423B7298C429400B9C8A6 /* Placemarks */,
 			);
@@ -336,6 +342,8 @@
 				994F6F0129895AC100410351 /* PlacemarkList.swift in Sources */,
 				992423B5298C418300B9C8A6 /* FavoriteButton.swift in Sources */,
 				992423B9298DE6F900B9C8A6 /* HexagonParameters.swift in Sources */,
+				99C254BC298EBACA004313C1 /* RotatedBadgeSymbol.swift in Sources */,
+				99C254BA298EB8E0004313C1 /* BadgeSymbol.swift in Sources */,
 				994F6EC8298819BB00410351 /* PlacemarksApp.swift in Sources */,
 				994F6EFF29884E1E00410351 /* PlacemarksRow.swift in Sources */,
 				992423BB298DE8CA00B9C8A6 /* BadgeBackground.swift in Sources */,
