@@ -9,7 +9,7 @@ Clone of Apple Tutorial 'Landmarks'
 - [x] [Handling user input](https://developer.apple.com/tutorials/swiftui/handling-user-input)
 
 ## Drawing and Animation
-- [ ] [Drawing paths and shapes](https://developer.apple.com/tutorials/swiftui/drawing-paths-and-shapes)
+- [x] [Drawing paths and shapes](https://developer.apple.com/tutorials/swiftui/drawing-paths-and-shapes)
 
 - [ ] [Animating views and transitions](https://developer.apple.com/tutorials/swiftui/animating-views-and-transitions)
 
