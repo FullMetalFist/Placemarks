@@ -8,9 +8,9 @@
 import Foundation
 import Combine
 
-
 final class ModelData: ObservableObject {
     @Published var placemarks: [Placemark] = load("landmarkData.json")
+    var hikes: [Hike] = load("hikeData.json")
 }
 
 var placemarks: [Placemark] = load("landmarkData.json")
