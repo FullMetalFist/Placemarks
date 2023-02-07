@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HikeView: View {
     var hike: Hike
-    @State private var showDetail = false
+    @State private var showDetail = true
 
     var body: some View {
         VStack {
@@ -60,7 +60,5 @@ struct HikeView_Previews: PreviewProvider {
 extension AnyTransition {
     static var moveAndFade: AnyTransition {
         .asymmetric(insertion: .slide, removal: .opacity)
-        //.asymmetric(insertion: .scale, removal: .opacity)
-        //.asymmetric(insertion: .move(edge: .trailing).combined(with: .opacity), removal: .scale.combined(with: .opacity))
     }
 }
