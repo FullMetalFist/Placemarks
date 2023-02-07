@@ -11,7 +11,7 @@ Clone of Apple Tutorial 'Landmarks'
 ## Drawing and Animation
 - [x] [Drawing paths and shapes](https://developer.apple.com/tutorials/swiftui/drawing-paths-and-shapes)
 
-- [ ] [Animating views and transitions](https://developer.apple.com/tutorials/swiftui/animating-views-and-transitions)
+- [x] [Animating views and transitions](https://developer.apple.com/tutorials/swiftui/animating-views-and-transitions)
 
 ## App Design Layout
 - [ ] [Composing complex interfaces](https://developer.apple.com/tutorials/swiftui/composing-complex-interfaces)
@@ -24,3 +24,7 @@ Clone of Apple Tutorial 'Landmarks'
 - [ ] [Creating a WatchOS app](https://developer.apple.com/tutorials/swiftui/creating-a-watchos-app)
 
 - [ ] [Creating a macOS app](https://developer.apple.com/tutorials/swiftui/creating-a-macos-app)
+
+
+## Part II
+- [ ] https://developer.apple.com/tutorials/sample-apps
