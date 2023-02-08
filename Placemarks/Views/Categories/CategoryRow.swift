@@ -20,7 +20,11 @@ struct CategoryRow: View {
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(alignment: .top, spacing: 0) {
                     ForEach(items) { placemark in
-                        CategoryItem(placemark: placemark)
+                        NavigationLink {
+                            PlacemarkDetail(placemark: placemark)
+                        } label: {
+                            CategoryItem(placemark: placemark)
+                        }
                     }
                 }
             }.frame(height: 185)
