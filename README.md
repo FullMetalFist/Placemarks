@@ -14,7 +14,7 @@ Clone of Apple Tutorial 'Landmarks'
 - [x] [Animating views and transitions](https://developer.apple.com/tutorials/swiftui/animating-views-and-transitions)
 
 ## App Design Layout
-- [ ] [Composing complex interfaces](https://developer.apple.com/tutorials/swiftui/composing-complex-interfaces)
+- [x] [Composing complex interfaces](https://developer.apple.com/tutorials/swiftui/composing-complex-interfaces)
 
 - [ ] [Working with UI Controls](https://developer.apple.com/tutorials/swiftui/working-with-ui-controls)
 
