@@ -12,6 +12,10 @@ final class ModelData: ObservableObject {
     @Published var placemarks: [Placemark] = load("landmarkData.json")
     var hikes: [Hike] = load("hikeData.json")
     
+    var features: [Placemark] {
+        placemarks.filter { $0.isFeatured }
+    }
+    
     var categories: [String: [Placemark]] {
         Dictionary(grouping: placemarks, by: { $0.category.rawValue })
     }
