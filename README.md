@@ -16,7 +16,7 @@ Clone of Apple Tutorial 'Landmarks'
 ## App Design Layout
 - [x] [Composing complex interfaces](https://developer.apple.com/tutorials/swiftui/composing-complex-interfaces)
 
-- [ ] [Working with UI Controls](https://developer.apple.com/tutorials/swiftui/working-with-ui-controls)
+- [x] [Working with UI Controls](https://developer.apple.com/tutorials/swiftui/working-with-ui-controls)
 
 ## Framework Integration
 - [ ] [Interfacing with UIKit](https://developer.apple.com/tutorials/swiftui/interfacing-with-uikit)
