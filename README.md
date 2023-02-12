@@ -19,7 +19,7 @@ Clone of Apple Tutorial 'Landmarks'
 - [x] [Working with UI Controls](https://developer.apple.com/tutorials/swiftui/working-with-ui-controls)
 
 ## Framework Integration
-- [ ] [Interfacing with UIKit](https://developer.apple.com/tutorials/swiftui/interfacing-with-uikit)
+- [x] [Interfacing with UIKit](https://developer.apple.com/tutorials/swiftui/interfacing-with-uikit)
 
 - [ ] [Creating a WatchOS app](https://developer.apple.com/tutorials/swiftui/creating-a-watchos-app)
 
