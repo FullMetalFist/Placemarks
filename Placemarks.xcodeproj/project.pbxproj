@@ -45,6 +45,7 @@
 		99C33DE0299949BA00BBF941 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C33DDF299949BA00BBF941 /* PageViewController.swift */; };
 		99C33DE229994EB600BBF941 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C33DE129994EB600BBF941 /* FeatureCard.swift */; };
 		99C33DE42999504C00BBF941 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C33DE32999504C00BBF941 /* PageView.swift */; };
+		99C33DE629996A6A00BBF941 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C33DE529996A6A00BBF941 /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +107,7 @@
 		99C33DDF299949BA00BBF941 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		99C33DE129994EB600BBF941 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		99C33DE32999504C00BBF941 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		99C33DE529996A6A00BBF941 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,6 +240,7 @@
 				99C33DDF299949BA00BBF941 /* PageViewController.swift */,
 				99C33DE129994EB600BBF941 /* FeatureCard.swift */,
 				99C33DE32999504C00BBF941 /* PageView.swift */,
+				99C33DE529996A6A00BBF941 /* PageControl.swift */,
 				99C33DD62995563D00BBF941 /* Profiles */,
 				99C33DCD2993F3ED00BBF941 /* Categories */,
 				99C254C6299168D1004313C1 /* Hikes */,
@@ -434,6 +437,7 @@
 				994F6F0129895AC100410351 /* PlacemarkList.swift in Sources */,
 				992423B5298C418300B9C8A6 /* FavoriteButton.swift in Sources */,
 				992423B9298DE6F900B9C8A6 /* HexagonParameters.swift in Sources */,
+				99C33DE629996A6A00BBF941 /* PageControl.swift in Sources */,
 				99C254C3299161A5004313C1 /* Hike.swift in Sources */,
 				99C33DD32993F97D00BBF941 /* CategoryItem.swift in Sources */,
 				99C254CD299168EC004313C1 /* HikeDetail.swift in Sources */,
