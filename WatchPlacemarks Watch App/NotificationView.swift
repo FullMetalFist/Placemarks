@@ -24,7 +24,7 @@ struct NotificationView: View {
             
             Divider()
             
-            Text(message ?? "You are within 5 miles of one of your favorite placemarks.")
+            Text(message ?? "Default Message")
                 .font(.caption)
         }
         .lineLimit(0)

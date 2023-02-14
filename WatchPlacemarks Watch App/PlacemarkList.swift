@@ -1,8 +1,8 @@
 //
 //  PlacemarkList.swift
-//  Placemarks
+//  WatchPlacemarks Watch App
 //
-//  Created by Michael Vilabrera on 1/31/23.
+//  Created by Michael Vilabrera on 2/14/23.
 //
 
 import SwiftUI
@@ -34,17 +34,13 @@ struct PlacemarkList: View {
                 }
             }
             .navigationTitle("Placemarks")
-            .frame(minWidth: 300)
         }
     }
 }
 
 struct PlacemarkList_Previews: PreviewProvider {
     static var previews: some View {
-        ForEach(["iPhone SE (2nd generation)", "iPhone XS Max"], id: \.self) {
-            deviceName in
-            PlacemarkList().environmentObject(ModelData()).previewDevice(PreviewDevice(rawValue: deviceName)).previewDisplayName(deviceName)
-        }
         
+        PlacemarkList().environmentObject(ModelData())
     }
 }

@@ -16,13 +16,24 @@ struct PlacemarksRow: View {
             placemark.image
                 .resizable()
                 .frame(width: 50, height: 50)
-            Text(placemark.name)
+                .cornerRadius(5)
+            VStack(alignment: .leading) {
+                Text(placemark.name)
+                    .bold()
+                #if !os(watchOS)
+                Text(placemark.park)
+                    .font(.caption)
+                    .foregroundColor(.secondary)
+                #endif
+            }
+            
             Spacer()
             
             if placemark.isFavorite {
                 Image(systemName: "star.fill").foregroundColor(.yellow)
             }
         }
+        .padding(.vertical, 4)
     }
 }
 

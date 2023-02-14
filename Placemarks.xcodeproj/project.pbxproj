@@ -11,6 +11,7 @@
 		992423B9298DE6F900B9C8A6 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992423B8298DE6F900B9C8A6 /* HexagonParameters.swift */; };
 		992423BB298DE8CA00B9C8A6 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992423BA298DE8CA00B9C8A6 /* BadgeBackground.swift */; };
 		99450481299C11D40052916E /* PlacemarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99450480299C11D40052916E /* PlacemarkDetail.swift */; };
+		99450483299C223E0052916E /* PlacemarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99450482299C223E0052916E /* PlacemarkList.swift */; };
 		994F6EC8298819BB00410351 /* PlacemarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F6EC7298819BB00410351 /* PlacemarksApp.swift */; };
 		994F6ECA298819BB00410351 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F6EC9298819BB00410351 /* ContentView.swift */; };
 		994F6ECC298819BC00410351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 994F6ECB298819BC00410351 /* Assets.xcassets */; };
@@ -62,7 +63,6 @@
 		99C33E4A299A900800BBF941 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C33DD42995557A00BBF941 /* Profile.swift */; };
 		99C33E4B299A900800BBF941 /* PlacemarksRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F6EFE29884E1E00410351 /* PlacemarksRow.swift */; };
 		99C33E4C299A900800BBF941 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F6EF3298820F700410351 /* MapView.swift */; };
-		99C33E4D299A900800BBF941 /* PlacemarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F6F0029895AC100410351 /* PlacemarkList.swift */; };
 		99C33E4E299A900800BBF941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 994F6ECB298819BC00410351 /* Assets.xcassets */; };
 		99C33E4F299A900800BBF941 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F6EF92988275600410351 /* ModelData.swift */; };
 		99C33E51299A91E900BBF941 /* PlacemarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C33E50299A91E900BBF941 /* PlacemarkDetail.swift */; };
@@ -140,6 +140,7 @@
 		992423B8298DE6F900B9C8A6 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		992423BA298DE8CA00B9C8A6 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		99450480299C11D40052916E /* PlacemarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacemarkDetail.swift; sourceTree = "<group>"; };
+		99450482299C223E0052916E /* PlacemarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacemarkList.swift; sourceTree = "<group>"; };
 		994F6EC4298819BB00410351 /* Placemarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Placemarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		994F6EC7298819BB00410351 /* PlacemarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacemarksApp.swift; sourceTree = "<group>"; };
 		994F6EC9298819BB00410351 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -448,6 +449,7 @@
 			children = (
 				99C33E1E299A8D6800BBF941 /* ContentView.swift */,
 				99C33E50299A91E900BBF941 /* PlacemarkDetail.swift */,
+				99450482299C223E0052916E /* PlacemarkList.swift */,
 				99C33E52299A97E700BBF941 /* NotificationView.swift */,
 				99C33E54299A992400BBF941 /* NotificationController.swift */,
 				99C33E56299A9DE600BBF941 /* PushNotificationPayload.apns */,
@@ -894,6 +896,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99450483299C223E0052916E /* PlacemarkList.swift in Sources */,
 				99C33E49299A900800BBF941 /* Hike.swift in Sources */,
 				99C33E4C299A900800BBF941 /* MapView.swift in Sources */,
 				99C33E4A299A900800BBF941 /* Profile.swift in Sources */,
@@ -905,7 +908,6 @@
 				99C33E4F299A900800BBF941 /* ModelData.swift in Sources */,
 				99C33E55299A992400BBF941 /* NotificationController.swift in Sources */,
 				99C33E1F299A8D6800BBF941 /* ContentView.swift in Sources */,
-				99C33E4D299A900800BBF941 /* PlacemarkList.swift in Sources */,
 				99C33E53299A97E700BBF941 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
