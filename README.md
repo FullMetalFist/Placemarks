@@ -21,6 +21,6 @@ Clone of Apple Tutorial 'Landmarks'
 ## Framework Integration
 - [x] [Interfacing with UIKit](https://developer.apple.com/tutorials/swiftui/interfacing-with-uikit)
 
-- [x] [Creating a WatchOS app](https://developer.apple.com/tutorials/swiftui/creating-a-watchos-app)
+- [x] [Creating a watchOS app](https://developer.apple.com/tutorials/swiftui/creating-a-watchos-app)
 
 - [ ] [Creating a macOS app](https://developer.apple.com/tutorials/swiftui/creating-a-macos-app)
