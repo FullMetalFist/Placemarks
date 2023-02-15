@@ -32,10 +32,11 @@ Building an app in SwiftUI is fun.
 I'm glad Apple is sharing resources to help us discover the API
 with a tangible use case.
 The challenging bit was understanding @Binding, @EnvironmentObject, @State
-when to use them & so forth. Take time to read documentation on [@Binding](https://developer.apple.com/documentation/swiftui/binding), [@State](https://developer.apple.com/documentation/swiftui/state), [@EnvironmentObject](https://developer.apple.com/documentation/swiftui/environmentobject)
+when to use them & so forth. Take time to read documentation on [@Binding](https://developer.apple.com/documentation/swiftui/binding), [@State](https://developer.apple.com/documentation/swiftui/state), & [@EnvironmentObject](https://developer.apple.com/documentation/swiftui/environmentobject)
 
 I do wish they had sample code on how to use [Combine](https://developer.apple.com/documentation/combine/)
 
 Next I will continue on the following:
 [SwiftUI Concepts Tutorials   Learning SwiftUI](https://developer.apple.com/tutorials/swiftui-concepts)
+ and then 
 [iOS App Dev Tutorials   Getting Started With Scrumdinger](https://developer.apple.com/tutorials/app-dev-training/getting-started-with-scrumdinger/)
