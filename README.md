@@ -23,4 +23,4 @@ Clone of Apple Tutorial 'Landmarks'
 
 - [x] [Creating a watchOS app](https://developer.apple.com/tutorials/swiftui/creating-a-watchos-app)
 
-- [ ] [Creating a macOS app](https://developer.apple.com/tutorials/swiftui/creating-a-macos-app)
+- [x] [Creating a macOS app](https://developer.apple.com/tutorials/swiftui/creating-a-macos-app)
