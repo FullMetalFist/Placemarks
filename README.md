@@ -31,7 +31,7 @@ Clone of Apple Tutorial 'Landmarks'
 Building an app in SwiftUI is fun.
 I'm glad Apple is sharing resources to help us discover the API
 with a tangible use case.
-The challenging bit was understanding @Binding, @EnvironmentObject, @State
+The challenging bit was understanding @Binding, @State, @EnvironmentObject
 when to use them & so forth. Take time to read documentation on [@Binding](https://developer.apple.com/documentation/swiftui/binding), [@State](https://developer.apple.com/documentation/swiftui/state), & [@EnvironmentObject](https://developer.apple.com/documentation/swiftui/environmentobject)
 
 I do wish they had sample code on how to use [Combine](https://developer.apple.com/documentation/combine/)
