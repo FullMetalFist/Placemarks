@@ -26,5 +26,11 @@ struct PlacemarksApp: App {
         #if os(watchOS)
         WKNotificationScene(controller: NotificationController.self, category: "PlacemarkNear")
         #endif
+        
+        #if os(macOS)
+        Settings {
+            PlacemarkSettings()
+        }
+        #endif
     }
 }

@@ -11,6 +11,7 @@ struct PlacemarkList: View {
     @EnvironmentObject var modelData: ModelData
     @State private var showFavoritesOnly = false
     @State private var filter = FilterCategory.all
+    @State private var selectedPlacemark: Placemark?
     
     enum FilterCategory: String, CaseIterable, Identifiable {
         case all = "All"
@@ -32,20 +33,25 @@ struct PlacemarkList: View {
         return showFavoritesOnly ? "Favorite \(title)" : title
     }
     
+    var index: Int?  {
+        modelData.placemarks.firstIndex(where: { $0.id == selectedPlacemark?.id })
+    }
+    
     var body: some View {
         NavigationView {
-            List {
+            List(selection: $selectedPlacemark) {
                 
                 Toggle(isOn: $showFavoritesOnly) {
                     Text("Favorites only")
                 }
-                
+                    
                 ForEach(filteredPlacemarks) { placemark in
                     NavigationLink {
                         PlacemarkDetail(placemark: placemark)
                     } label: {
                         PlacemarksRow(placemark: placemark)
                     }
+                    .tag(placemark)
                 }
             }
             .navigationTitle(title)
@@ -72,6 +78,7 @@ struct PlacemarkList: View {
             
             Text("Select a Placemark")
         }
+        .focusedValue(\.selectedPlacemark, $modelData.placemarks[index ?? 0])
     }
 }
 

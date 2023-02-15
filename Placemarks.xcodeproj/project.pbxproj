@@ -14,6 +14,8 @@
 		99450483299C223E0052916E /* PlacemarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99450482299C223E0052916E /* PlacemarkList.swift */; };
 		99450485299C7A1B0052916E /* PlacemarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99450484299C7A1B0052916E /* PlacemarkCommands.swift */; };
 		99450486299C7A1B0052916E /* PlacemarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99450484299C7A1B0052916E /* PlacemarkCommands.swift */; };
+		99450488299D44C00052916E /* PlacemarkSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99450487299D44C00052916E /* PlacemarkSettings.swift */; };
+		99450489299D44C00052916E /* PlacemarkSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99450487299D44C00052916E /* PlacemarkSettings.swift */; };
 		994F6EC8298819BB00410351 /* PlacemarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F6EC7298819BB00410351 /* PlacemarksApp.swift */; };
 		994F6ECA298819BB00410351 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F6EC9298819BB00410351 /* ContentView.swift */; };
 		994F6ECC298819BC00410351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 994F6ECB298819BC00410351 /* Assets.xcassets */; };
@@ -144,6 +146,7 @@
 		99450480299C11D40052916E /* PlacemarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacemarkDetail.swift; sourceTree = "<group>"; };
 		99450482299C223E0052916E /* PlacemarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacemarkList.swift; sourceTree = "<group>"; };
 		99450484299C7A1B0052916E /* PlacemarkCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacemarkCommands.swift; sourceTree = "<group>"; };
+		99450487299D44C00052916E /* PlacemarkSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacemarkSettings.swift; sourceTree = "<group>"; };
 		994F6EC4298819BB00410351 /* Placemarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Placemarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		994F6EC7298819BB00410351 /* PlacemarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacemarksApp.swift; sourceTree = "<group>"; };
 		994F6EC9298819BB00410351 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -493,6 +496,7 @@
 			children = (
 				99C33E60299BF52100BBF941 /* ContentView.swift */,
 				99450480299C11D40052916E /* PlacemarkDetail.swift */,
+				99450487299D44C00052916E /* PlacemarkSettings.swift */,
 				99C33E62299BF52100BBF941 /* Assets.xcassets */,
 				99C33E67299BF52100BBF941 /* MacPlacemarks.entitlements */,
 				99C33E64299BF52100BBF941 /* Preview Content */,
@@ -857,6 +861,7 @@
 				992423B9298DE6F900B9C8A6 /* HexagonParameters.swift in Sources */,
 				99C33DE629996A6A00BBF941 /* PageControl.swift in Sources */,
 				99C254C3299161A5004313C1 /* Hike.swift in Sources */,
+				99450488299D44C00052916E /* PlacemarkSettings.swift in Sources */,
 				99C33DD32993F97D00BBF941 /* CategoryItem.swift in Sources */,
 				99C254CD299168EC004313C1 /* HikeDetail.swift in Sources */,
 				99C33DDA2995597C00BBF941 /* ProfileSummary.swift in Sources */,
@@ -949,6 +954,7 @@
 				99C33E88299BF5AE00BBF941 /* ModelData.swift in Sources */,
 				99450486299C7A1B0052916E /* PlacemarkCommands.swift in Sources */,
 				99C33E94299BF67D00BBF941 /* CircleImage.swift in Sources */,
+				99450489299D44C00052916E /* PlacemarkSettings.swift in Sources */,
 				99C33E92299BF67D00BBF941 /* MapView.swift in Sources */,
 				99C33E8C299BF5AE00BBF941 /* Placemark.swift in Sources */,
 			);
