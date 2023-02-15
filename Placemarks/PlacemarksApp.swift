@@ -17,6 +17,11 @@ struct PlacemarksApp: App {
             ContentView()
                 .environmentObject(modelData)
         }
+        #if !os(watchOS)
+        .commands {
+            PlacemarkCommands()
+        }
+        #endif
         
         #if os(watchOS)
         WKNotificationScene(controller: NotificationController.self, category: "PlacemarkNear")

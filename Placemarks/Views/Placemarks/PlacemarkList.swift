@@ -10,11 +10,26 @@ import SwiftUI
 struct PlacemarkList: View {
     @EnvironmentObject var modelData: ModelData
     @State private var showFavoritesOnly = false
+    @State private var filter = FilterCategory.all
+    
+    enum FilterCategory: String, CaseIterable, Identifiable {
+        case all = "All"
+        case lakes = "Lakes"
+        case rivers = "Rivers"
+        case mountains = "Mountains"
+        
+        var id: FilterCategory { self }
+    }
     
     var filteredPlacemarks: [Placemark] {
         modelData.placemarks.filter { placemark in
-            (!showFavoritesOnly || placemark.isFavorite)
+            (!showFavoritesOnly || placemark.isFavorite) && (filter == .all || filter.rawValue == placemark.category.rawValue)
         }
+    }
+    
+    var title: String {
+        let title = filter == .all ? "Placemarks" : filter.rawValue
+        return showFavoritesOnly ? "Favorite \(title)" : title
     }
     
     var body: some View {
@@ -33,8 +48,29 @@ struct PlacemarkList: View {
                     }
                 }
             }
-            .navigationTitle("Placemarks")
+            .navigationTitle(title)
             .frame(minWidth: 300)
+            .toolbar {
+                ToolbarItem {
+                    Menu {
+                        Picker("Category", selection: $filter) {
+                            ForEach(FilterCategory.allCases) { category in
+                                Text(category.rawValue).tag(category)
+                            }
+                            .pickerStyle(.inline)
+                        }
+                        .pickerStyle(.inline)
+                        
+                        Toggle(isOn: $showFavoritesOnly) {
+                            Label("Favorites Only", systemImage: "star.fill")
+                        }
+                    } label: {
+                        Label("Filter", systemImage: "slider.horizontal.3")
+                    }
+                }
+            }
+            
+            Text("Select a Placemark")
         }
     }
 }

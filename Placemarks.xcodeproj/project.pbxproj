@@ -12,6 +12,8 @@
 		992423BB298DE8CA00B9C8A6 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992423BA298DE8CA00B9C8A6 /* BadgeBackground.swift */; };
 		99450481299C11D40052916E /* PlacemarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99450480299C11D40052916E /* PlacemarkDetail.swift */; };
 		99450483299C223E0052916E /* PlacemarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99450482299C223E0052916E /* PlacemarkList.swift */; };
+		99450485299C7A1B0052916E /* PlacemarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99450484299C7A1B0052916E /* PlacemarkCommands.swift */; };
+		99450486299C7A1B0052916E /* PlacemarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99450484299C7A1B0052916E /* PlacemarkCommands.swift */; };
 		994F6EC8298819BB00410351 /* PlacemarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F6EC7298819BB00410351 /* PlacemarksApp.swift */; };
 		994F6ECA298819BB00410351 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F6EC9298819BB00410351 /* ContentView.swift */; };
 		994F6ECC298819BC00410351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 994F6ECB298819BC00410351 /* Assets.xcassets */; };
@@ -141,6 +143,7 @@
 		992423BA298DE8CA00B9C8A6 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		99450480299C11D40052916E /* PlacemarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacemarkDetail.swift; sourceTree = "<group>"; };
 		99450482299C223E0052916E /* PlacemarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacemarkList.swift; sourceTree = "<group>"; };
+		99450484299C7A1B0052916E /* PlacemarkCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacemarkCommands.swift; sourceTree = "<group>"; };
 		994F6EC4298819BB00410351 /* Placemarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Placemarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		994F6EC7298819BB00410351 /* PlacemarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacemarksApp.swift; sourceTree = "<group>"; };
 		994F6EC9298819BB00410351 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -288,6 +291,7 @@
 				994F6F0029895AC100410351 /* PlacemarkList.swift */,
 				994F6F0229895DBD00410351 /* PlacemarkDetail.swift */,
 				994F6EFE29884E1E00410351 /* PlacemarksRow.swift */,
+				99450484299C7A1B0052916E /* PlacemarkCommands.swift */,
 			);
 			path = Placemarks;
 			sourceTree = "<group>";
@@ -843,6 +847,7 @@
 				99C33DD12993F71400BBF941 /* CategoryRow.swift in Sources */,
 				99C33DD52995557A00BBF941 /* Profile.swift in Sources */,
 				994F6ECA298819BB00410351 /* ContentView.swift in Sources */,
+				99450485299C7A1B0052916E /* PlacemarkCommands.swift in Sources */,
 				99C33DCF2993F40500BBF941 /* CategoryHome.swift in Sources */,
 				99C33DE229994EB600BBF941 /* FeatureCard.swift in Sources */,
 				99C254BE298FF671004313C1 /* Badge.swift in Sources */,
@@ -942,6 +947,7 @@
 				99C33E61299BF52100BBF941 /* ContentView.swift in Sources */,
 				99450481299C11D40052916E /* PlacemarkDetail.swift in Sources */,
 				99C33E88299BF5AE00BBF941 /* ModelData.swift in Sources */,
+				99450486299C7A1B0052916E /* PlacemarkCommands.swift in Sources */,
 				99C33E94299BF67D00BBF941 /* CircleImage.swift in Sources */,
 				99C33E92299BF67D00BBF941 /* MapView.swift in Sources */,
 				99C33E8C299BF5AE00BBF941 /* Placemark.swift in Sources */,
